@@ -1,48 +1,164 @@
-body {
-	background: rgb(0, 0, 0);
-	height: 300px;
-	margin: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 10px 10px;
-}
+<!-- Вattle 1 Exercise 11 -->
+  <div class="battle">
+    <div class="battle__name">Ex.11</div>
+    <div class="battle__field">
+      <div class="body__ex-1">
+        <!-- Your code here -->
+        <div class="m-circle">
+          <div class="half-circle">
+            <div class="half-m-circle"></div>
+          </div>
+          <div class="m-o-circle">
+            <div class="m-dot"></div>
+          </div>
+          <div class="half-circle" id="r">
+            <div class="half-m-circle"></div>
+          </div>
+        </div>
+        <style>
+          .body__ex-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #191210;
+          }
 
-h1 {
-	color: #eee;
-	text-align: center;
-	width: 100%;
-}
+          .m-dot {
+            width: 50px;
+            height: 50px;
+            background: #84271C;
+            border-radius: 100px;
+          }
 
-.battle {
-	background: #eee;
-	width: 410px;
-	height: 325px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 5px rgb(70, 14, 14);
-	transition: all 1s ease-in-out;
-}
+          .m-circle {
+            width: 140px;
+            height: 140px;
+            background: #ECA03D;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
 
-.battle:hover{
-	transform: scale(1.2);
-	position: relative;
-	z-index: 1;
-	box-shadow: 3px 3px 5px rgb(132, 19, 19);
-}
+          .m-o-circle {
+            width: 100px;
+            height: 100px;
+            background: #191210;
+            border-radius: 100px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
 
-.battle__field {
-	width: 400px;
-	height: 300px;
-	box-sizing: border-box;
-	outline: 2px dashed rgb(200, 59, 59);
-	margin: 0 auto;
-}
+          .half-circle {
+            width: 100px;
+            height: 50px;
+            background: #ECA03D;
+            margin-left: -100px;
+            margin-top: 50px;
+            border-radius: 0 0 130px 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
 
-.battle__field > div:first-child {
-	height: 300px;
-	box-sizing: border-box;
-}
+          .half-m-circle {
+            width: 60px;
+            height: 30px;
+            background: #191210;
+            margin-bottom: 20px;
+            border-radius: 0 0 100px 100px;
+          }
 
-.battle__name {
-	text-align: center;
-}
+          #r {
+            rotate: 180deg;
+            margin: -50px -100px 0 0;
+          }
+        </style>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Вattle 1 Exercise 12 -->
+  <div class="battle">
+    <div class="battle__name">Ex.12</div>
+    <div class="battle__field">
+      <div class="body__ex-12">
+        <div class="o-circle- l" id="rll">
+          <div class="m-circle-"></div>
+        </div>
+        <div class="o-circle-">
+          <div class="m-circle-"></div>
+        </div>
+        <div class="o-circle- r" id="rr">
+          <div class="m-circle-"></div>
+        </div>
+        <div class="s-p1"></div>
+        <div class="s-p2"></div>
+        <style>
+          .o-circle- {
+            width: 100px;
+            height: 50px;
+            background: #dd6b4d;
+            border-radius: 100px 100px 0 0;
+            margin-top: -50px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+          }
+
+          .m-circle- {
+            width: 60px;
+            height: 30px;
+            background: #F5D6B4;
+            border-radius: 100px 100px 0 0;
+          }
+
+          .body__ex-12 {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F5D6B4;
+          }
+
+          #rr,
+          #rll {
+            rotate: 180deg;
+            margin: 50px 0 0 0;
+          }
+
+          #rll {
+            margin-right: -20px;
+          }
+
+          #rr {
+            margin-left: -20px;
+          }
+
+          .s-p1,
+          .s-p2 {
+            width: 20px;
+            height: 20px;
+            background: #D86F45;
+            position: absolute;
+            border-radius: 100px 100px 0 0;
+          }
+
+          .s-p1 {
+            margin-right: 240px;
+          }
+
+          .s-p2 {
+            margin-right: -240px;
+          }
+        </style>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
