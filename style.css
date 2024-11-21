@@ -80,22 +80,7 @@
   </div>
 
 
-  <!-- Вattle 1 Exercise 12 -->
-  <div class="battle">
-    <div class="battle__name">Ex.12</div>
-    <div class="battle__field">
-      <div class="body__ex-12">
-        <div class="o-circle- l" id="rll">
-          <div class="m-circle-"></div>
-        </div>
-        <div class="o-circle-">
-          <div class="m-circle-"></div>
-        </div>
-        <div class="o-circle- r" id="rr">
-          <div class="m-circle-"></div>
-        </div>
-        <div class="s-p1"></div>
-        <div class="s-p2"></div>
+c
         <style>
           .o-circle- {
             width: 100px;
